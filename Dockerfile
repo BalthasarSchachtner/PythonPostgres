@@ -2,6 +2,7 @@ FROM python:3
 ENV PYTHONUNBUFFERED 1
 
 RUN mkdir /code
+RUN mkdir /datawarehouse
 WORKDIR /code
 ADD requirements.txt /code/
 
